@@ -1,10 +1,3 @@
-"""
-Opendoor (OPEN) Weekly Price Forecast - Final Fixed Version
-- Fixes Prophet fit TypeError by ensuring ds/y are correct types and no NaNs
-- Compatible with XGBoost 1.3.1 (uses xgb.train / DMatrix)
-- LSTM + XGBoost + Prophet ensemble, recursive future forecast, plotting & saving
-"""
-
 import os
 import warnings
 warnings.filterwarnings("ignore")
